@@ -2,6 +2,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    color:#11284b;
 }
 
 html,body{
@@ -10,25 +11,177 @@ html,body{
     font-family: 'Inter', sans-serif;
 }
 
+header{
+    width: 100%;
+    height: 65px;
+    background-color: #f6f6eb;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.cabeca{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-left: 0%;
+    align-items: center;
+    img{
+        height: 50px;
+    }
+    
+}
+
 .txt{
-    font-weight: 900;
-    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-weight: 700;
+    font-size: 15px;
+    p{
+        color:  ;
+        border: 2px transparent solid;
+        padding: 5px;
+        cursor: pointer;
+        border-radius: 10px;
+        &:hover{
+            border: 2px #381fd1 solid;
+        }
+    }
+}
+
+#diff{
+    padding: 10px 20px;
+    background-color: #381fd1;
+    color: snow;
+    border-radius: 10px;
 }
 
 .home{
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 25px;
+    gap: 20px;
+    padding: 50px;
+}
+
+.cx{
+    width: 250px;
+    height: 200px;
+    padding: 10px 20px;
+    border:1px gray solid;
+    border-radius: 10px;
+    img{
+        width: 30px;
+        height: 30px;
+        border:1px gray solid;
+        border-radius: 10px;        
+    }
 }
 
 .pesquisa{
+    display: flex;
+    justify-content: center;
+    color: snow;
+    flex-direction: column;
     width: 500px;
-    height: 100px;
-    background-color: red;
+    height: 500px;
+    
+    .Categories-Options{
+        display: none;
+    }
+    .cima{
+        height: 30px;
+        width: 20px;
+    }
+    .sc{
+        height: 30px;
+        width: 20px;
+        margin-top: -85px;
+    }
+
+    input{
+        padding: 10px 20px;
+        margin-bottom: 50px;
+    }
 }
 
-header{
-    width: 100%;
-    height: 70px;
+.gateg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-1{
+    background-image: url("https://res.cloudinary.com/stark-lab/image/upload/v1653845742/library_collection_Collection_Boundless_Disability_Employment_c297d236d9.png");
+    width: 300px;
+    height: 600px;
+}
+
+.card-2{
+    background-image: url('https://res.cloudinary.com/stark-lab/image/upload/v1653845743/library_collection_making_accessible_color_combos_42c8d90a99.png');
+}
+.card-3{
+    background-image: url('https://res.cloudinary.com/stark-lab/image/upload/v1653845743/library_collection_Inclusive_Social_Media_b9669e6d39.png');
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.caixa{
+    gap:20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.e{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+}
+.txtcx{
+    gap: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    h1{
+        font-size: 50px;
+    }
+}
+
+.logos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 30px;
+    color: snow;
+}
+
+footer{
+    background-color: #381fd1;
+
+    h1,p{
+        color: snow;
+    }
+}
+
+.product{
+    
 }
